@@ -1,0 +1,122 @@
+*, html, body 
+{
+	font-family:"Segoe UI", "Arial Black", "Arial Bold", "Arial", sans-serif;
+	font-weight:400;
+}
+
+html
+{
+	min-height:100%;
+}
+
+body
+{
+	border:0;
+	padding:0;
+	margin:auto auto;
+	
+	text-align:center;
+	
+	background:url("clouds.png") left top repeat, linear-gradient(#326698, #6FC3EF, #6FC3EF);
+	background-color:#6FC3EF;
+}
+
+strong 
+{
+	font-weight:600;
+}
+
+em 
+{
+	font-weight:400;
+	font-style:italic;
+}
+
+a:link
+{
+	color:#326698;
+}
+
+a:hover
+{
+	text-decoration:none;
+}
+
+a:visited
+{
+	color:#7d8fa1;
+}
+	
+header, main, footer
+{
+	text-align:left;
+	margin:auto;
+	
+	padding:10px 80px;
+	
+	background-color:#ffffff;
+	border-radius:12px;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.333), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+header > h1
+{
+	font-size:48pt;
+	font-weight:800;
+}
+
+header > h1 > strong
+{
+	color:#326698;
+	font-weight:inherit;
+}
+
+main
+{
+}
+
+main > p 
+{
+    font-size:0.9em;
+	margin-bottom:1.5em;
+}
+
+footer
+{
+	text-align:center;
+}
+
+.tooltip 
+{
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext 
+{
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    width: 210px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: calc(-210px/2);
+}
+
+.tooltip:hover 
+{
+    cursor: help;
+}
+
+.tooltip:hover .tooltiptext 
+{
+    visibility: visible;
+}
