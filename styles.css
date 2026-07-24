@@ -143,15 +143,11 @@ nav {
 
 .nav-toggle {
     display: none;
-
     border: none;
-
     background: transparent;
 
     color: var(--text-primary);
-
     font-size: 1.5rem;
-
     cursor: pointer;
 }
 
@@ -195,6 +191,16 @@ nav {
     background: var(--accent);
 }
 
+.card > h2 {
+    margin-bottom: 1.5rem;
+}
+
+.card p.lead {
+    font-size: 1.15rem;
+
+    color: var(--text-primary);
+}
+
 
 /* --- Sub Cards --- */
 
@@ -220,8 +226,6 @@ nav {
 
 .sub-card:hover {
     border-color: var(--accent);
-
-    /*transform: translateY(-2px);*/
 }
 
 .sub-card > a {
@@ -243,6 +247,41 @@ nav {
 
 .sub-card:hover img {
     transform: scale(1.02);
+}
+
+.sub-card > h3 {
+    font-size: 1.5rem;
+
+    color: var(--text-primary);
+}
+
+.sub-card > h5 {
+    font-weight: normal;
+}
+
+.sub-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.sub-card-tags li {
+    margin: 0;
+    padding: 0.3rem 0.75rem;
+
+    font-size: 0.8rem;
+    font-weight: 500;
+
+    color: var(--text-secondary);
+    background: rgb(45 111 63 / 0.15);
+
+    border: 1px solid rgb(45 111 63 / 0.4);
+    border-radius: 999px;
 }
 
 
@@ -301,79 +340,24 @@ p:last-child {
 
 h1 {
     font-size: clamp(3rem, 6vw, 5rem);
-
     line-height: 1.1;
-
     letter-spacing: -0.03em;
 }
 
 h1 > em {
     font-style: normal;
-
     color: var(--accent-light);
 }
 
 h2 {
     font-size: clamp(1.5rem, 3vw, 2rem);
-
     line-height: 1.2;
 }
 
 h3 {
     font-size: 1.15rem;
-
     font-weight: 400;
-
     color: var(--text-secondary);
-}
-
-/* --- Card --- */
-
-.card > h2 {
-    margin-bottom: 1.5rem;
-}
-
-.card p.lead {
-    font-size: 1.15rem;
-
-    color: var(--text-primary);
-}
-
-/* --- Sub-card --- */
-
-.sub-card > h3 {
-    font-size: 1.5rem;
-
-    color: var(--text-primary);
-}
-
-.sub-card > h5 {
-    font-weight: normal;
-}
-
-.sub-card-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-
-    margin: 0;
-    padding: 0;
-
-    list-style: none;
-}
-
-.sub-card-tags li {
-    margin: 0;
-    padding: 0.3rem 0.75rem;
-
-    font-size: 0.8rem;
-    font-weight: 500;
-
-    color: var(--text-secondary);
-    background: rgb(45 111 63 / 0.15);
-
-    border: 1px solid rgb(45 111 63 / 0.4);
-    border-radius: 999px;
 }
 
 
