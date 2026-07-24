@@ -1,86 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
 
-<meta charset="utf-8" />
-<meta name="title" content="" />
-<meta name="author" content="David John Ogle" />
-<meta name="keywords" content="programmer, developer, engineer, cv, resume, job, games, videogames, graphics, c++, unity" />
+        <meta charset="utf-8" />
+        <meta name="title" content="" />
+        <meta name="author" content="David John Ogle" />
+        <meta name="keywords" content="programmer, developer, engineer, cv, resume, job, games, videogames, graphics, c++, unity" />        
 
-<title>DJOgle.co.uk</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="favicon/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="favicon/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
 
-<link rel="apple-touch-icon" sizes="180x180" href="http://www.djogle.co.uk/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://www.djogle.co.uk/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="http://www.djogle.co.uk/favicon/favicon-16x16.png">
-<link rel="manifest" href="http://www.djogle.co.uk/favicon/site.webmanifest">
-<link rel="mask-icon" href="http://www.djogle.co.uk/favicon/safari-pinned-tab.svg" color="#5bbad5">
-<link rel="shortcut icon" href="http://www.djogle.co.uk/favicon/favicon.ico">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="msapplication-config" content="http://www.djogle.co.uk/favicon/browserconfig.xml">
-<meta name="theme-color" content="#ffffff">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
 
-<link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" media="all and (orientation:portrait), (max-width:640px)" href="portrait.css">
-<link rel="stylesheet" media="all and (orientation:landscape) and (min-width:640px)" href="landscape.css">
+        <title></title>
 
-<script>
-var interval = 100; // milliseconds
-var speed = 3; // pixels-per-second
+    </head>
+    <body>
 
-var offset = 0;
-setInterval(function() {
-	offset += (speed / 1000) * interval;
-	document.body.style.backgroundPosition = "top 0 left " + offset + "px";
-}, interval);
-</script>
+        <div class="page">
 
-</head>
-<body>
+            <nav>
+                <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
 
-<header>
-<h1><strong>DJ</strong>Ogle.co.uk</h1>
-</header>
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#current-focus">Current Focus</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
 
-<main>
-<p>
-I (<strong>D</strong>avid <strong>J</strong>ohn <strong>O</strong>gle) am <em>not</em> a DJ, but I <em>am</em> a software engineer from <a href="https://www.google.com/maps/place/Newcastle+upon+Tyne">Newcastle-Upon-Tyne, UK</a>.
-</p>
+            <main>
 
-<p>
-I am a <strong>seasoned lead developer</strong>, with <strong>14+ years industry experience</strong>, who is always looking for opportunities to work with exciting, cutting-edge technology.
-</p>
+                <section id="home">
+                    <div class="card">
+                        <h1><em>D</em>avid <em>J</em>ohn <em>Ogle</em></h1>
+                        <div class="tagline">I build software, systems and engineering teams</div>
+                        <div class="lead">Software Engineering Leader with over 14 years of experience building games and interactive experiences across PC, console, mobile and VR.</div>
+                        <p><a href="David Ogle CV.pdf">Download CV</a> | <a href="https://www.linkedin.com/in/djogle/">Linkedin</a> | <a href="#contact">Contact</a></p>
+                    </div>
+                </section>
 
-<p>
-I am primarily a <strong>C++</strong> and <strong>C#</strong> developer with strong skills in <strong>game-engine core-tech development</strong> and <strong>graphics programming</strong>, including shader programming with <strong>CG/HLSL</strong> and the graphics APIs <strong>OpenGL</strong> and <strong>DirectX</strong>. I have many years experience creating games using the <strong><a href="https://unity.com/">Unity</a></strong> game engine.
-</p>
+                <section id="about">
+                    <div class="card">
+                        <h2>About</h2>
+                        <p class="lead">
+                            Throughout my career I have worked on a wide range of interactive technologies, from custom game engines and rendering systems to online game infrastructure, XR platforms and medical simulation. My experience spans hands-on software development, software architecture, technical strategy and engineering leadership.
+                        </p>
+                        <p>
+                            I have led multidisciplinary teams, built engineering capability and worked closely with designers, artists, product teams, clients and domain specialists to turn complex ideas into practical, deliverable products.
+                        </p>
+                        <p><strong>My mission is to build.</strong></p>
+                        <p>
+                            I believe successful products are built on strong engineering foundations, effective teams and clear technical direction. I enjoy creating the systems, structures and environments that enable talented people to do their best work sustainably, turning individual strengths into collective success.
+                        </p>
+                        </div>
+                </section>
 
-<p>
-I have a strong background both leading and working as part of an agile software development team. Personable and technically-minded, I <strong>excel at communicating within multidisciplinary groups</strong> and explaining technical detail to a non-technical audience.
-</p>
+                <section id="current-focus">
+                    <div class="card">
+                        <h2>Current Focus</h2>
+                        <p class="lead">
+                            I am currently focused on applying my experience in software architecture, engineering leadership and product development to organisations building ambitious technical products.
+                        </p>
+                        <p>
+                            I am exploring Technical Director and CTO opportunities where I can apply my technical experience and leadership skills at an organisational level - shaping technical strategy, developing engineering capability and helping teams build successful products.
+                        </p>
+                        <p>
+                            Interested in:
+                        </p>
+                        <ul>
+                            <li>Technical leadership in games, interactive software, XR or related technology sectors</li>
+                            <li>Building scalable engineering practices and strong technical foundations</li>
+                            <li>Helping teams translate ambitious ideas into practical products</li>
+                        </ul>
+                    </div>
+                </section>
 
-<p>
-I have developed software for a variety of platforms including: PC, Console, Mobile and VR (standalone and tethered) devices. My experience has taught me the importance of writing <strong>modular</strong>, <strong>well-documented</strong> and <strong>maintainable</strong> code and I strive to write the best, most robust software wherever possible and encourage others to do the same.
-</p>
+                <section id="experience">
+                    <div class="card">
+                        <h2>Experience</h2>
 
-<p>
-I first began programming during the mid 1990's just as the desktop PC and the Internet were becoming household items. I taught myself HTML and CSS in order to build websites; skills I later expanded on to include <span class="tooltip"><strong>Javascript</strong> and <strong>PHP</strong><span class="tooltiptext">The pariah languages!</span></span>, and used these to develop websites on a freelance basis.
-</p>
+                        <div class="article-grid">
 
-<p>
-My love of programming and fascination with the burgeoning videogames industry led me to dive deeper into the more bare-metal language C++ in order to develop my own videogames.
-</p>
+                            <article id="red-rover-interactive" class="sub-card">
+                                <h3>Red Rover Interactive</h3>
+                                <h4> Lead Software Engineer | 2023-2026</h4>
+                                <a href="https://store.steampowered.com/app/2437390/Enginefall/"><img src="Enginefall.jpg" /></a>
+                                <p>
+                                    Enginefall is a player-driven survival/crafting shooter combining large-scale multiplayer gameplay with MMO-style online systems. As Lead Software Engineer, I built and led the Backend and Tools engineering function, establishing the capability required to deliver game services, infrastructure and internal tooling.
+                                </p>
+                                <h5>Engineering leadership • Backend architecture • Analytics strategy • Streaming technology • Technical innovation</h5>
+                            </article>
 
-<p>
-My formal education includes an undergraduate degree in <strong>Computer Science (Hons)</strong> and a master's degree in <strong>Computer Games Engineering</strong> (with distinction) from the University of Newcastle-Upon-Tyne.
-</p>
-</main>
+                            <article id="fundamentalxr" class="sub-card">
+                                <h3>FundamentalXR</h3>
+                                <h4>Lead Software Engineer | 2022-2023</h4>
+                                <a href="https://www.youtube.com/watch?v=0S-XDK15xbk"><img src="Abiomed_impella.png" /></a>
+                                <p>
+                                    FundamentalXR delivers multi-user haptic VR surgical training simulations, combining immersive technology with clinically accurate surgical workflows. As Lead Software Engineer, I provided technical leadership across a multidisciplinary team of engineers, artists, product specialists and medical experts, translating complex requirements into practical technical solutions.
+                                </p>
+                                <h5>XR architecture • Technical leadership • Multiplayer systems • Medical simulation • Cross-disciplinary collaboration</h5>
+                            </article>
 
-<footer>
-<a href="mailto:david@djogle.co.uk"><img title="Email" alt="Email Icon" src="email_icon.png" /></a>
-<a href="https://www.linkedin.com/in/djogle/"><img title="My LinkedIn Profile" alt="LinkedIn Icon" src="linkedin_logo.png" /></a>
-</footer>
+                            <article id="lockwood-publishing" class="sub-card">
+                                <h3>Lockwood Publishing</h3>
+                                <h4>Senior Software Engineer | 2019-2022</h4>
+                                <a href="https://avakin.com/"><img src="Avakin_Life.png" /></a>
+                                <p>
+                                    Avakin Life is a large-scale social virtual world with 200M+ registered users across mobile and PC platforms. As part of the Core Technology/R&D team, I developed core platform technologies spanning C++, C#, Unity, Node.js and JavaScript.
+                                </p>
+                                <p>
+                                    Led the redesign and rewrite of Avakin Life's apartment configuration tooling, replacing a manual content workflow with a dedicated desktop editor that reduced creation time from hours to minutes. Also contributed to server-side asset processing technology, improving performance on lower-end devices and supporting future user-generated content.
+                                </p>
+                                <h5>Platform engineering • Developer tooling • Graphics systems • Performance optimisation • Technical mentoring</h5>
+                            </article>
 
-</body>
+                            <article id="hedgehog-lab" class="sub-card">
+                                <h3>Hedgehog Lab</h3>
+                                <h4>Lead XR Programmer | 2017-2019</h4>
+                                <a href="https://hedgehoglab.com/"><img src="Vortic.png" /></a>
+                                <p>
+                                    Built and established hedgehog lab's XR engineering capability, delivering immersive AR and VR applications for enterprise clients across art, energy and industrial sectors. As Lead XR Programmer, I provided technical leadership across XR, web and backend engineers, translating ambitious product concepts into practical architectures.
+                                </p>
+                                <p>
+                                    Architected a distributed XR platform combining Unity VR applications, WebGL experiences, Drupal-based backend services and cloud telemetry systems to deliver personalised virtual experiences.
+                                </p>
+                                <h5>XR architecture • Technical leadership • Client engagement • Distributed systems • Immersive technology</h5>
+                            </article>
+
+                            <article id="zerolight" class="sub-card">
+                                <h3>Zerolight</h3>
+                                <h4>Software Engineer | 2016-2017</h4>
+                                <a href="https://zerolight.com/"><img src="Zerolight_Audi.png" /></a>
+                                <p>
+                                    Zerolight develops real-time 3D visualisation technology for automotive brands including Audi and Volkswagen. I worked on graphics, rendering and streaming technologies powering cloud-delivered interactive vehicle configurators and immersive automotive experiences.
+                                </p>
+                                <p>
+                                    Improved rendering and video streaming performance for showroom installations, identifying rendering bottlenecks and designing a novel buffering solution to deliver smoother playback. Also developed a panoramic VR visualisation system for Samsung Gear VR, enabling cloud-generated vehicle visualisations to be experienced on mobile VR hardware.
+                                </p>
+                                <h5>Graphics engineering • Rendering optimisation • Video streaming • Mobile VR • Performance engineering</h5>
+                            </article>
+
+                            <article id="nosebleed-interactive" class="sub-card">
+                                <h3>Nosebleed Interactive</h3>
+                                <h4>Technical Lead | 2012-2016</h4>
+                                <a href="https://www.nosebleedinteractive.com/"><img src="The_Hungry_Horde.png" /></a>
+                                <p>
+                                    Progressed from Software Engineer to Technical Lead, helping grow an independent studio from a small startup into a successful multi-platform games developer. Led engineering across custom engine development, gameplay systems and multi-platform releases, shipping titles including The Hungry Horde and Vostok Inc.
+                                </p>
+                                <p>
+                                    Designed and developed core technology powering The Hungry Horde, including a custom 3D engine and rendering systems targeting PlayStation Mobile and PlayStation Vita. As Technical Lead, provided technical direction across a team of engineers, overseeing architecture, code quality, hiring, mentoring and delivery across console and mobile platforms.
+                                </p>
+                                <h5>Game engine development • Technical leadership • Console development • Team growth • Rendering technology</h5>
+                            </article>
+                                
+                        </div>
+
+                    </div>
+                </section>
+
+                <section id="contact">
+                    <div class="card">
+                        <h2>Contact</h2>
+                        <ul>
+                            <li>Email: <a href="mailto:DAVco4@gmail.com">DAVco4@gmail.com</a></li>
+                            <li>Linkedin: <a href="https://www.linkedin.com/in/djogle/">linkedin.com/in/djogle</a></li>
+                            <li>Location: <a href="https://www.google.com/maps/place/Newcastle+upon+Tyne/">Newcastle Upon Tyne</a></li>
+                            <li>Experience: <a href="David Ogle CV.pdf">Download CV</a></li>
+                        </ul>
+
+                    </div>
+                </section>
+
+            </main>
+
+        </div>
+
+        <script type="text/javascript">
+            const toggle = document.querySelector(".nav-toggle");
+            const links = document.querySelector(".nav-links");
+            const nav = document.querySelector("nav");
+
+            function updateNavOffset() {
+                document.documentElement.style.setProperty(
+                    "--mobile-nav-offset",
+                    `${nav.offsetHeight + 16}px`
+                );
+            }
+
+            toggle.addEventListener("click", () => {
+                links.classList.toggle("open");
+                updateNavOffset();
+            });
+
+            window.addEventListener("resize", updateNavOffset);
+        </script>
+
+    </body>
 </html>
