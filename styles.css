@@ -271,17 +271,20 @@ nav {
 }
 
 .sub-card-tags li {
-    margin: 0;
-    padding: 0.3rem 0.75rem;
-
     font-size: 0.8rem;
-    font-weight: 500;
+    padding: 0.3rem 0.9rem;
 
     color: var(--text-secondary);
-    background: rgb(45 111 63 / 0.15);
 
-    border: 1px solid rgb(45 111 63 / 0.4);
+    border: 1px solid var(--border-color);
     border-radius: 999px;
+
+    background: transparent;
+}
+
+.sub-card:hover .sub-card-tags li {
+    border-color: var(--accent);
+    color: var(--text-primary);
 }
 
 
