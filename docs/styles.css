@@ -12,7 +12,7 @@
     --nav-padding: 1rem;
 
     /* Colours */
-    --page-background: #111315;
+    --page-background: #0c0d0e;
     --card-background: #1b1f21;
     --article-background: #161a1c;
 
@@ -27,7 +27,7 @@
     /* Shape */
     --card-radius: 0rem;
     --article-radius: 0rem;
-    --card-shadow: 0 0 200px rgba(220, 252, 226, 0.2);
+    --card-shadow: 0 0 200px rgba(230, 245, 230, 0.2);
 }
 
 
@@ -166,6 +166,7 @@ nav {
 
     padding: var(--card-padding);
     padding-left: calc(var(--card-padding) + 1rem);
+    padding-bottom: calc(var(--card-padding) + 1rem);
 
     background: var(--card-background);
 
@@ -331,6 +332,12 @@ h3 {
     margin: 0;
 }
 
+h2, 
+h3
+{
+    
+}
+
 p {
     margin: 0 0 1rem;
 
@@ -354,8 +361,8 @@ h2 {
 
 h3 {
     font-size: 1.15rem;
-    font-weight: 400;
-    color: var(--text-secondary);
+    font-weight: 600;
+    color: var(--text-primary);
 }
 
 
